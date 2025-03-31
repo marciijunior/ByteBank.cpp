@@ -4,7 +4,6 @@
 #include "Conta.h"
 
 class ContaCorrente : public Conta {
-    
 public:
     static int numeroDeContas;
     ContaCorrente(Cliente cliente, int agencia) 
